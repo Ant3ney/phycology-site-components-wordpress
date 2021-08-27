@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+html {
+	margin: 0 !important;
+	font-family: 'Amatic SC', cursive;
+}
+body {
+	margin: 0 !important;
+	display: flex;
+	flex-direction: column;
+}
+
+.button {
+	padding: 1rem 4rem;
+	height: auto;
+	background-color: #bc4b51;
+	border: 0;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.button:hover {
+	color: white;
+}
+
+.navbar {
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	padding: 2rem;
+	background-color: transparent; /* Make this change on scrrol to white */
+	height: auto;
+}
+p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2rem;
+}
+
+.scrolled-nav {
+	background-color: #faffd8 !important;
+}
+
+.toggled-nav {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+	font-size: 6rem;
+	margin: 0rem;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+h3 {
+	font-size: 4rem;
+	margin: 0rem;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: black;
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 5rem;
+	}
+	h3 {
+		font-size: 3rem;
+	}
+}
+
+.fade-out {
+	opacity: 0;
+	transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.o-0 {
+	opacity: 0;
+}
+
+.fade-in {
+	opacity: 1;
+	transition: width 0.5s, height 0.5s, opacity 1s;
+}
+
+d-none {
+	display: none !important;
+}
+
+.white-maker {
+	padding-top: 3rem;
+	background-color: white;
+}
+#footer-section {
+	width: 100%;
+	padding: 0rem 1rem 1rem 0rem;
+	background-color: #61707d;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer-section .footer-col {
+	display: flex;
+	flex-direction: column;
+}
+#footer-section a {
+	color: white;
+	text-decoration: none;
+	padding: 1rem 0rem 0rem 1rem;
+}
+.blog-container {
+	margin: 7rem 3rem 1rem 3rem;
+}
+.make-black {
+	color: black !important;
+}
