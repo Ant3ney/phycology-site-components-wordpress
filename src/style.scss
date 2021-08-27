@@ -1,0 +1,77 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* @media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+} */
+
+.wp-block-create-block-contact-me {
+	background-color: white;
+}
+
+.contact-me-container {
+	display: flex;
+	flex-direction: column;
+	h1 {
+		margin: 0rem;
+		font-size: 4rem;
+		width: 100%;
+		padding: 1rem 1rem 0rem 1rem;
+		@media only screen and (max-width: 480px) {
+			font-size: 3rem;
+		}
+	}
+	.mainTitle {
+		padding: 3rem 1rem 0rem 1rem;
+		text-align: center;
+	}
+	p {
+		margin: 0rem;
+		padding: 1rem 1rem 0rem 1rem;
+		width: 100%;
+	}
+	section {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0rem 1rem 0rem 0rem;
+	}
+	label {
+		margin: 0rem;
+		padding: 1rem 0rem 0rem 0rem;
+		width: 100%;
+		font-family: 'Amatic SC', cursive;
+		font-size: 2rem;
+	}
+	.contact-input {
+		margin: 1rem 0rem 0rem 0rem;
+		border: none;
+		background-color: #61707d;
+		border-radius: 10px;
+		min-height: 3rem;
+		color: white;
+		padding: 1rem;
+	}
+	.label-input-container {
+		display: flex;
+		flex-direction: column;
+		padding: 0rem 0rem 0rem 1rem;
+	}
+	textarea {
+		min-height: 10rem !important;
+	}
+	button {
+		width: fit-content;
+		margin: 1rem 0rem 0rem 1rem;
+	}
+}

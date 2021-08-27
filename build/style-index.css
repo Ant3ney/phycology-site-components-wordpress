@@ -1,0 +1,81 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+/* @media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+} */
+.wp-block-create-block-contact-me {
+  background-color: white;
+}
+
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+}
+.contact-me-container h1 {
+  margin: 0rem;
+  font-size: 4rem;
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+}
+@media only screen and (max-width: 480px) {
+  .contact-me-container h1 {
+    font-size: 3rem;
+  }
+}
+.contact-me-container .mainTitle {
+  padding: 3rem 1rem 0rem 1rem;
+  text-align: center;
+}
+.contact-me-container p {
+  margin: 0rem;
+  padding: 1rem 1rem 0rem 1rem;
+  width: 100%;
+}
+.contact-me-container section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem 1rem 0rem 0rem;
+}
+.contact-me-container label {
+  margin: 0rem;
+  padding: 1rem 0rem 0rem 0rem;
+  width: 100%;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+}
+.contact-me-container .contact-input {
+  margin: 1rem 0rem 0rem 0rem;
+  border: none;
+  background-color: #61707d;
+  border-radius: 10px;
+  min-height: 3rem;
+  color: white;
+  padding: 1rem;
+}
+.contact-me-container .label-input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 0rem 0rem 1rem;
+}
+.contact-me-container textarea {
+  min-height: 10rem !important;
+}
+.contact-me-container button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
